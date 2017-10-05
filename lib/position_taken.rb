@@ -5,4 +5,5 @@ def position_taken? (pos)
   else
     false
   end
+end
   
