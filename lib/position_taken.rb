@@ -1,4 +1,4 @@
-def position_taken? (pos)
+def position_taken? (board, pos)
   index = pos.to_i - 1
   if board[index] == " "
     true
@@ -6,4 +6,3 @@ def position_taken? (pos)
     false
   end
 end
-  
